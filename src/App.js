@@ -1,17 +1,19 @@
-import './App.css';
-import React from 'react';
-import About from './components/About';
-import Contact from './components/Contact';
-import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Testimonials from './components/Testimonials';
+import "./App.css";
+import React from "react";
+import Buttons from "./components/Buttons";
+import Name from "./components/Name";
+import Occupation from "./components/Occupation";
+
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/themes/theme-rickiest.css";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <About/>
+    <main>
+      <div style={{ height: "20vh" }} />
+      <Name />
+      <Occupation />
+      <Buttons />
     </main>
   );
 }
-
