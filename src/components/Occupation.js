@@ -14,14 +14,12 @@ export default function Occupation() {
           margin: 0,
         }}
       >
-        <p>
+        <h3 style={{ fontWeight: "normal", fontSize: 20 }}>
           {occupation1}{" "}
           <em style={{ color: "#CC5500", fontStyle: "normal" }}>
             {occupation2}
           </em>
-        </p>
-        {/* &nbsp;
-        <p style={{ color: "#CC5500" }}>{occupation2}</p> */}
+        </h3>
       </div>
     </main>
   );

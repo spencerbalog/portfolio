@@ -11,7 +11,7 @@ export default function Name() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          fontSize: "32px",
+          fontSize: "34px",
           margin: 0,
         }}
       >

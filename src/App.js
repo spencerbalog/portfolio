@@ -10,7 +10,7 @@ import "react-awesome-button/dist/themes/theme-rickiest.css";
 export default function App() {
   return (
     <main>
-      <div style={{ height: "20vh" }} />
+      <div style={{ height: "10vh" }} />
       <Name />
       <Occupation />
       <Buttons />
