@@ -1,5 +1,6 @@
 import React from "react";
 import "react-awesome-button/dist/themes/theme-rickiest.css";
+import "./Name.css";
 
 export default function Name() {
   const name = "Spencer Balog";
