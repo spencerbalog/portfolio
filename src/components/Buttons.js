@@ -5,7 +5,7 @@ import "../../node_modules/font-awesome/css/font-awesome.css";
 
 export default function Buttons() {
   const openMailTo = () => {
-    window.location = "mailto:balogspencer@gmail.com";
+    window.location = "mailto:balogspencer@gmail.com?subject=[Portfolio]";
   };
 
   const openGitHub = () => {
