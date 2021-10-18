@@ -14,9 +14,14 @@ export default function Occupation() {
           margin: 0,
         }}
       >
-        <p>{occupation1}</p>
-        &nbsp;
-        <p style={{ color: "#CC5500" }}>{occupation2}</p>
+        <p>
+          {occupation1}{" "}
+          <em style={{ color: "#CC5500", fontStyle: "normal" }}>
+            {occupation2}
+          </em>
+        </p>
+        {/* &nbsp;
+        <p style={{ color: "#CC5500" }}>{occupation2}</p> */}
       </div>
     </main>
   );
